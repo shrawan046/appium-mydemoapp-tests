@@ -1,0 +1,35 @@
+android:
+  platformName: "Android"
+  deviceName: "emulator-5554"
+  platformVersion: "16.0"
+  automationName: "UiAutomator2"
+  app: "D:\\ApiDemos-debug.apk"
+  appPackage: "io.appium.android.apis"
+  appActivity: ".app.LauncherShortcuts"
+  noReset: true
+  newCommandTimeout: 3600
+  connectHardwareKeyboard: true
+
+android_app:
+  platformName: "Android"
+  deviceName: "emulator-5554"
+  platformVersion: "16.0"
+  automationName: "UiAutomator2"
+  app: "D:\\app\\MyDemoApp.apk"
+  appPackage: "com.saucelabs.mydemoapp.rn"
+  appActivity: "com.saucelabs.mydemoapp.rn.MainActivity"
+  chromedriverAutodownload": true
+  noReset: true
+  newCommandTimeout: 3600
+  connectHardwareKeyboard: true
+  adbExecTimeout: 60000
+
+chrome_browser:
+  platformName: "Android"
+  deviceName: "emulator-5554"
+  platformVersion: "14"
+  automationName: "UiAutomator2"
+  browserName: "Chrome"              # ✅ tells Appium to start Chrome
+  noReset: true
+  chromedriverAutodownload: true
+  adbExecTimeout: 60000
